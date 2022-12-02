@@ -3,6 +3,11 @@ using LogicalProgramming;
 
 Console.WriteLine("Hello, World!");
 
+Console.WriteLine("Calling Stimulate Stopwatch");
+StimulateStopwatch stimulateStopwatch = new StimulateStopwatch();
+stimulateStopwatch.Stopwatch();
+
+
 Console.WriteLine("Calling Reverse a Number");
 ReverseANumber aNumber = new ReverseANumber();
 aNumber.Reverse();
