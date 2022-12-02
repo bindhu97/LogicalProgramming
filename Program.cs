@@ -3,6 +3,10 @@ using LogicalProgramming;
 
 Console.WriteLine("Hello, World!");
 
+Console.WriteLine("Calling PerfectNumber");
+PerfectNumber perfectNumber = new PerfectNumber();
+perfectNumber.Perfect();
+
 Console.WriteLine("Calling FibonacciSeries");
 FibonacciSeries fibonacciSeries = new FibonacciSeries();
 fibonacciSeries.Fibonacci();
