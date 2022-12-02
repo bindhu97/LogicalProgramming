@@ -3,6 +3,10 @@ using LogicalProgramming;
 
 Console.WriteLine("Hello, World!");
 
+Console.WriteLine("Calling PrimeNumber");
+PrimeNumber primeNumber = new PrimeNumber();
+primeNumber.Prime();
+
 Console.WriteLine("Calling PerfectNumber");
 PerfectNumber perfectNumber = new PerfectNumber();
 perfectNumber.Perfect();
