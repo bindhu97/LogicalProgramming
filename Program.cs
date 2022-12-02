@@ -3,6 +3,10 @@ using LogicalProgramming;
 
 Console.WriteLine("Hello, World!");
 
+Console.WriteLine("Calling Reverse a Number");
+ReverseANumber aNumber = new ReverseANumber();
+aNumber.Reverse();
+
 Console.WriteLine("Calling PrimeNumber");
 PrimeNumber primeNumber = new PrimeNumber();
 primeNumber.Prime();
