@@ -3,6 +3,14 @@ using LogicalProgramming;
 
 Console.WriteLine("Hello, World!");
 
+Console.WriteLine("Caling Coupon Number");
+CouponNumber couponNumber = new CouponNumber();
+couponNumber.coupon();
+
+Console.WriteLine("Calling Vending Machine");
+VendingMachine vendingMachine = new VendingMachine();
+vendingMachine.Vending();
+
 Console.WriteLine("Calling Stimulate Stopwatch");
 StimulateStopwatch stimulateStopwatch = new StimulateStopwatch();
 stimulateStopwatch.Stopwatch();
